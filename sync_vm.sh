@@ -8,4 +8,4 @@ fi
 TARGET_DIR="$1"
 IP_ADDR="$2"
 
-rsync -avz --delete "$TARGET_DIR" "developer@$IP_ADDR:/home/developer/projects"
+rsync -avz --delete "$TARGET_DIR" "$IP_ADDR:/home/developer/projects"
